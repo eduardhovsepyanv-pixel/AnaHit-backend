@@ -22,8 +22,8 @@ app.post("/create-checkout-session", async (req, res) => {
         quantity: quantity,
       }],
       mode: "payment",
-      success_url: "https://YOUR_FRONTEND_URL/success.html",
-      cancel_url: "https://YOUR_FRONTEND_URL/index.html",
+      success_url: "https://69d71bf2c54cd97e87e1462d--unrivaled-puppy-619b26.netlify.app/",
+      cancel_url: "https://69d71bf2c54cd97e87e1462d--unrivaled-puppy-619b26.netlify.app/",
     });
 
     res.json({ id: session.id });
